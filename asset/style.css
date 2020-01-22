@@ -6,9 +6,9 @@ main{
 width: 60%;
 margin: auto;
 display: grid;
-grid-gap: 5px;
+/* grid-gap: 5px; */
 grid-template-columns: repeat(4, 1fr);
-grid-auto-rows: 15vh;
+grid-auto-rows: 14vh;
 }
 
 .item1{
@@ -29,7 +29,7 @@ border: solid 2px black;
 
 .item3{
 grid-row-start: 3;
- grid-row-end: 5;
+grid-row-end: 5;
 border: solid 2px black;
  }
 
