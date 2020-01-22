@@ -61,6 +61,7 @@ line-height: 2;
 }
     
 .item6{
+
 grid-row-start: 4;
 grid-row-end: 8;
 border: solid black;
