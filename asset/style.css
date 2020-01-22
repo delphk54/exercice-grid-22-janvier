@@ -4,8 +4,20 @@ body{
 
 main{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
 }
-.item{
-    border: solid 2px black;
+
+.item1{
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end: 3;
+border: solid 2px black;
+}
+
+.item2{
+grid-column-start: 3;
+grid-column-end: 5;
+border: solid 2px black;
 }
