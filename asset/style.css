@@ -20,7 +20,7 @@ grid-column-end: 3;
 grid-row-start: 1;
 grid-row-end: 3;
 border:solid black ;
-border-width: ( 1px 1px 1px 1px);
+border-width: 1px 1px 1px 1px;
 line-height: 2;
 
 }
@@ -31,7 +31,7 @@ grid-column-end: 5;
 grid-row-start: 1;
 grid-row-end: 4;
 border: solid black;
-border-width: (1px 1px 0 0 );
+border-width: 1px 1px 0 0;
 line-height: 4;
 }
 
@@ -39,7 +39,7 @@ line-height: 4;
 grid-row-start: 3;
 grid-row-end: 5;
 border: solid black;
-border-width: ( 0px 0px 1px 1px);
+border-width: 0 0 0 1px;
 line-height: 2;
 
  }
@@ -48,7 +48,7 @@ line-height: 2;
 grid-row-start: 3;
 grid-row-end: 5;
 border: solid black;
-border-width: ( 1px 1px 1px 1px);
+border-width: 0 1px 0 1px;
 line-height: 2;
 }
 
@@ -56,6 +56,7 @@ line-height: 2;
 grid-row-start: 4;
 grid-row-end: 6;
 border: solid 2px black;
+border-width: 1px 0 0 0;
 line-height: 2;
 }
     
@@ -63,7 +64,7 @@ line-height: 2;
 grid-row-start: 4;
 grid-row-end: 8;
 border: solid black;
-border-width: ( 1px 1px 1px 1px);
+border-width: 1px 1px 1px 1px;
 line-height: 6;
 }  
 
@@ -73,7 +74,7 @@ grid-column-end: 3;
 grid-row-start: 5;
 grid-row-end: 8;
 border: solid black;
-border-width: ( 1px 1px 1px 1px);
+border-width: 1px;
 line-height: 4;
 }
 
@@ -83,7 +84,7 @@ grid-column-end: 4;
 grid-row-start: 6;
 grid-row-end: 8;
 border: solid black;
-border-width: ( 1px 1px 1px 1px);
+border-width: 1px 0;
 line-height: 2;
 }
 
